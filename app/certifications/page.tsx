@@ -1,14 +1,14 @@
 import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
 import CertificationsGrid from "@/app/components/CertificationsGrid";
 import Footer from "@/app/components/Footer";
 
-export default function Home() {
+export default function CertificationsPage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <CertificationsGrid />
+      <div className="pt-20">
+        <CertificationsGrid />
+      </div>
       <Footer />
     </>
   );
