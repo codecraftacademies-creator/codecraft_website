@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
   },
 
   // Only needed if your repo is NOT username.github.io
-  basePath: "/your-repo-name",
-  assetPrefix: "/your-repo-name/",
+  basePath: "/codecraft_website",
+  assetPrefix: "/codecraft_website/",
 };
 
 export default nextConfig;
